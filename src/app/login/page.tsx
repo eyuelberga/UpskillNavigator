@@ -63,7 +63,7 @@ export default function LoginPage() {
                 type="password"
                 name="password"
                 id="password"
-                placeholder="••••••••"
+                placeholder=""
                 className="bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5"
                 required
               />
@@ -75,6 +75,9 @@ export default function LoginPage() {
             >
               Login
             </button>
+            <p>For testing you can use this:</p>
+            <p>email: user@example.corp</p>
+            <p>password: password</p>
           </form>
         </div>
       </div>

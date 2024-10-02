@@ -75,9 +75,18 @@ export default function LoginPage() {
             >
               Login
             </button>
-            <p>For testing you can use this:</p>
+            <div
+  className="mt-2 bg-gray-100 border border-gray-200 text-sm text-gray-800 rounded-lg p-4 dark:bg-white/10 dark:border-white/20 dark:text-white"
+  role="alert"
+  tabIndex={-1}
+  aria-labelledby="hs-soft-color-dark-label"
+>
+
+   <p>For testing you can use this:</p>
             <p>email: user@example.corp</p>
             <p>password: password</p>
+</div>
+           
           </form>
         </div>
       </div>

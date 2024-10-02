@@ -76,7 +76,7 @@ export default function LoginPage() {
               Login
             </button>
             <div
-  className="mt-2 bg-gray-100 border border-gray-200 text-sm text-gray-800 rounded-lg p-4 dark:bg-white/10 dark:border-white/20 dark:text-white"
+  className="mt-2 bg-gray-100 border border-gray-200 text-sm text-gray-800 rounded-lg p-4"
   role="alert"
   tabIndex={-1}
   aria-labelledby="hs-soft-color-dark-label"
